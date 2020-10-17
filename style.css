@@ -36,9 +36,100 @@
             img{
                 text-align: center;
             }
-            span{
+            #googleimg > span{
             color: #4285f4;
             font: 18px/16px roboto-regular, arial, sans-serif;
             right: 61px;
             position: relative;
             }
+            #adhead{
+                color: #d93025;
+                font-size: 20px;
+                margin: 25px 35px;
+            }
+            #adhead > label{
+                margin-left: 10px;
+            }
+            #borderline{
+                border-bottom: 1px solid #ebebeb;
+            }
+            #maindiv{
+                max-width: 1140px;
+                min-width: 200px;
+                width: 96%;
+                margin: 40px 2% 0 45px;
+            }
+            .subdiv{
+                width: 100%;
+                clear: both;
+            }
+            .insidesub{
+                clear: both;
+            }
+            .subin{
+                float: left;
+                display: inline-block;
+                min-width: 167px;
+                width: 16%;
+                font-size: 16px;
+                height: 42px;
+                font-weight: 500;
+                color: #333;
+                vertical-align: middle;
+            }
+            .bfinpt{
+                height: 30px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+            #empty{   
+                 float: left;
+                display: inline-block;
+                min-width: 167px;
+                min-height: 41px;
+                vertical-align: middle;
+                width: 50%;
+            }
+            .subin1{
+                float: left;
+                display: inline-block;
+                width: 33%;
+                font-size: 13px;
+                font-weight: 700;
+                color: #777;
+                padding-left: 5px;
+                vertical-align: middle;
+            }
+            .head1{
+                float: left;
+                display: inline-block;
+                min-width: 167px;
+                width: 16%;
+                height: 42px;
+                color: #222;
+                font-size: 13px;
+                line-height: 16px;
+                vertical-align: middle;
+            }
+            .inpt{
+                float: left;
+                display: inline-block;
+                min-width: 167px;
+                min-height: 41px;
+                vertical-align: middle;
+                width: 50%;
+            }
+            .underinpt{
+                padding-right: 16px;
+            }
+            .txtinp{
+                width: 100%;
+                text-align: left;
+            }
+            .spnclss{
+                color: #666;
+                font-family: monospace;
+                font-size: 11px;
+                white-space: pre;
+            }
+            
