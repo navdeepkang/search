@@ -13,7 +13,7 @@
     </div>
     <div id="borderline"></div>
     <div id="maindiv">
-        <form action="/search" method="GET" name="f">
+        <form action="https://www.google.com/search" method="GET" name="f">
             <div class="subdiv">
                 <div class="insidesub">
                     <div class="subin">
@@ -40,9 +40,71 @@
                         </div>
                     </div>
                     <div class="afinpt">
-                        <div class="bfinpt">"Type the important words:"
+                        <div class="bfinpt">Type the important words:
                             <span class="spnclss">tri-colour rat terrier</span>
                         </div>
+                    </div>
+                </div>
+                <div class="insidesub">
+                    <div class="head1">
+                        <div class="bfinpt">
+                            <label for="">this exact word or phrase:</label>
+                        </div>
+                    </div>    
+                    <div class="inpt">
+                        <div class="underinpt">
+                            <input type="text" name="as_epq" value autofocus="autofocus" class="txtinp">
+                        </div>
+                    </div>
+                    <div class="afinpt">
+                        <div class="bfinpt">Put exact words in quotes:
+                            <span class="spnclss">"rat terrier"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="insidesub">
+                    <div class="head1">
+                        <div class="bfinpt">
+                            <label for="">any of these words:</label>
+                        </div>
+                    </div>    
+                    <div class="inpt">
+                        <div class="underinpt">
+                            <input type="text" name="as_oq" value autofocus="autofocus" class="txtinp">
+                        </div>
+                    </div>
+                    <div class="afinpt">
+                        <div class="bfinpt">Type
+                            <span class="spnclss">OR</span> between all the words you want:  <span class="spnclss">miniature OR standard</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="insidesub">
+                    <div class="head1">
+                        <div class="bfinpt">
+                            <label for="">none these words:</label>
+                        </div>
+                    </div>    
+                    <div class="inpt">
+                        <div class="underinpt">
+                            <input type="text" name="as_eq" value autofocus="autofocus" class="txtinp">
+                        </div>
+                    </div>
+                    <div class="afinpt">
+                        <div class="bfinpt">Put a minus sign just before words that you don't want:
+                            <span class="spnclss">-rodent, -"Jack Russell"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="insidesub">
+                    <div class="head1">
+                    </div>    
+                    <div class="inpt" style="text-align: right;">
+                       <input type="submit" value="Advanced Search"
+                       id="advncesr">
+                       <input type="hidden" name="tbs" value="">
+                    </div>
+                    <div class="afinpt">
                     </div>
                 </div>
             </div>           
